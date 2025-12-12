@@ -123,7 +123,7 @@ function prevQuestion() {
       cancelButtonText: "Não, continuar a responder",
     }).then((result) => {
       if (result.isConfirmed) {
-        window.location.href = "https://grupo-novaes.github.io/Trainings_Simple_Platform/HTML/videos.html"
+        window.location.href = "https://grupo-novaes.github.io/Trainings_Simple_Platform/HTML/indexForms.html"
       }
     });
   }
